@@ -1,0 +1,83 @@
+*{
+    height: 100%;
+    width: 100%;
+    margin: 0;
+}
+
+main{
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    align-items: center;
+    justify-content: center;
+}
+
+#container {
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+    height: 500px;
+    background-color: #f9b208;
+    border-radius: 50% 50% 50% 50% / 60% 60% 40% 40%;  
+    align-items: center;
+    border: 10px solid #fc5404;
+}
+
+#tittle{
+    height: 10%;
+    margin-top: 10%;
+    text-align: center;
+}
+
+#tittle>h1{
+    -webkit-text-stroke: 1px purple;
+    font-family: 'Shadows Into Light', cursive
+}
+
+#status{
+    margin-top: 5%;
+    display: flex;
+    flex-direction: row;
+    background-color: darkgray;
+    width: 70%;
+    height: 5%;
+    text-align: center;
+    border: 2px solid #000;
+}
+
+.sta{
+    width: 30%;
+}
+
+#img{
+    width: 70%;
+    height: 40%;
+    border: 2px solid #000;
+    background-color: white;
+}
+
+#buttons{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    height: 50px;
+}
+
+.btn{
+    width: 15%;
+    margin-top: 5%;
+    background-color: #e92929;
+    border: 2px solid #fc5404;
+    border-radius: 50%;
+    color: #000;
+    font-size: larger;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    cursor: pointer;
+    text-align: center;
+}
+
+.btn:hover{
+    background-color: #fae9ae;
+    border: 1px solid rgba(#000, 0.05);
+}
